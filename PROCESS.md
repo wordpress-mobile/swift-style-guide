@@ -1,7 +1,7 @@
 # Process to add a new rule
 
-If you want to suggest an addition to the style guide, create a new issue. It
-should include a good explanation, and examples of good/bad usage, unless the
+If you want to suggest an addition to the style guide, [create a new issue](https://github.com/wordpress-mobile/swift-style-guide/issues/new?labels=proposal) with the `proposal` label.
+It should include a good explanation, and examples of good/bad usage, unless the
 difference is obvious (e.g. tabs vs spaces). It should include other
 alternatives and an explanation of why this one is better, even if it’s just
 “it’s the one most commonly used”. Ideally, the body of the issue should be good
