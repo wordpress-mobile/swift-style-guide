@@ -9,7 +9,7 @@ enough to put in the style guide as-is if approved. Bonus points if the issue
 contains a custom rule for SwiftLint.
 
 Once an issue is created, we use Github reactions to gather interest. Issues
-with more :+1:s get reviewed first. Anyone is free to leave a comment with their
+with more :+1: get reviewed first. Anyone is free to leave a comment with their
 opinion at this point, or ask for clarifications, but there’s no review yet.
 
 When it’s time for a review, one or more issues are picked (depending on their
