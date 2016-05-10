@@ -9,8 +9,9 @@ enough to put in the style guide as-is if approved. Bonus points if the issue
 contains a custom rule for SwiftLint.
 
 Once an issue is created, we use Github reactions to gather interest. Issues
-with more :+1: get reviewed first. Anyone is free to leave a comment with their
-opinion at this point, or ask for clarifications, but there’s no review yet.
+with more :+1: get reviewed first. See [proposals sorted by vote](https://github.com/wordpress-mobile/swift-style-guide/issues?q=is%3Aissue+is%3Aopen+label%3Aproposal+sort%3Areactions-%2B1-desc)
+
+Anyone is free to leave a comment with their opinion at this point, or ask for clarifications, but there’s no review yet.
 
 When it’s time for a review, one or more issues are picked (depending on their
 expected controversy), and they’re up for review. Everyone is encouraged to take
