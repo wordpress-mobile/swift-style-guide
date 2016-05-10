@@ -17,12 +17,18 @@ expected controversy), and they’re up for review. Everyone is encouraged to ta
 a look at the reviewed issues, and leave their opinion and vote. To create a new
 review, a Pull Request is created with the requested changes.
 
-There should be a voting scale: +2 (I believe this is much better than the
-alternative), +1 (I prefer this one), 0 (I don’t care), -1 (I prefer the
-alternative), -2 (I think the alternative is much better). If you leave a +/- 2
-there should be a good explanation with it.
+There should be a voting scale:
+
+- :+1: :+1: I believe this is much better than the
+alternative
+- :+1: I prefer this one
+- :neutral_face: I don’t care
+- :-1: I prefer the alternative
+- :-1: :-1: I think the alternative is much better
+
+If you leave a vote in either end of the scale, it should come with a good
+explanation.
 
 When the review period is over, the votes and arguments are taken into account
 and a decision is made. The new rule gets added to the guide and, if possible, a
 new rule is added to the linter.
-
