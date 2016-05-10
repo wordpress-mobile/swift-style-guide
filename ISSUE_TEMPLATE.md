@@ -43,3 +43,12 @@ While the stdlib uses _a space on both sides of the colon when it’s used for
 declaration or extension_, Apple Developer publications _always write colons
 with no space on the left (except ternary)_.
 -->
+
+### Enforcing the rule
+
+<!--
+If you know a good way to enforce this rule, add the information here. For
+instance:
+
+SwiftLint includes a `colon` rule that implements this.
+-->
