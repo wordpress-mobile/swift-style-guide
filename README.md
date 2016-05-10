@@ -10,11 +10,12 @@ It’s not a long document and it establishes a common ground for what good Swif
 code looks like.
 
 Our approach to building a style guide is to do it incrementally and reach
-consensus. You can read more about the [process](PROCESS.md). When there is not
-a rule for something or there’s ambiguity, you’re encouraged to create a new
-issue with a proposal. In the meantime, the [raywenderlich.com Swift Style
-Guide](https://github.com/raywenderlich/swift-style-guide/) is often a good
-place to look for reference, but it’s not our official guide.
+consensus. You can read more about the [process](PROCESS.md).
+
+When there is not a rule for something or there’s ambiguity, you’re encouraged
+to create a new issue with a proposal. In the meantime, the [raywenderlich.com
+Swift Style Guide](https://github.com/raywenderlich/swift-style-guide/) is often
+a good place to look for reference, but it’s not our official guide.
 
 Besides keeping this document short, we’re trying to organize it in two
 sections: a _must read_ section for rules we can’t automatically enforce, and an
@@ -52,4 +53,3 @@ are enabled_. Xcode misses some cases, but it should help a lot.
 
 Swift does not require a semicolon after each statement in your code. There’s no
 reason to add them.
-
