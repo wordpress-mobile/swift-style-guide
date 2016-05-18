@@ -32,6 +32,26 @@ of our rules as we can, so trust the warnings. Don’t commit or merge code with
 warnings. Our `Release` builds turn warnings into errors, so if you merge a
 warning you will create a problem for the person doing the release later on.
 
+### Don't allow optional parameters and then return when they're nil
+
+Don't allow optional parameters just to return when they're `nil`.
+
+```swift
+// Wrong: the return value becomes an optional as well.  Added complexity.
+func process(image: UIImage?) -> UIImage? {
+    if image == nil {
+        return nil
+    }
+
+    // ...process the image...
+}
+
+// Correct: the return value has a chance to become non-optional.  Reduced complexity.
+func process(image: UIImage) -> UIImage {
+    // ...process the image...
+}
+```
+
 ## All the rules
 
 ### Trailing new line
