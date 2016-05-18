@@ -37,19 +37,21 @@ warning you will create a problem for the person doing the release later on.
 Don't allow optional parameters just to return when they're `nil`.
 
 ```swift
+// Correct: the return value has a chance to become non-optional.  Reduced complexity.
+func process(image: UIImage) -> UIImage {
+    // ...process the image...
+}
+let processedImage = optionalImage.map(process)
+
 // Wrong: the return value becomes an optional as well.  Added complexity.
 func process(image: UIImage?) -> UIImage? {
-    if image == nil {
+    guard let image == image else {
         return nil
     }
 
     // ...process the image...
 }
-
-// Correct: the return value has a chance to become non-optional.  Reduced complexity.
-func process(image: UIImage) -> UIImage {
-    // ...process the image...
-}
+let processedImage = process(optionalImage)
 ```
 
 ## All the rules
