@@ -32,7 +32,7 @@ of our rules as we can, so trust the warnings. Don’t commit or merge code with
 warnings. Our `Release` builds turn warnings into errors, so if you merge a
 warning you will create a problem for the person doing the release later on.
 
-### Don't allow optional parameters and then return when they're nil
+### Deal with optionals early
 
 Don't allow optional parameters just to return when they're `nil`.
 
