@@ -1,4 +1,4 @@
-# The Swift Style Guide for Wordpress Mobile apps
+# The Swift Style Guide for WordPress Mobile apps
 
 So you want to write some Swift code for WordPress apps. That’s nice, thanks a
 lot. But before that take some minutes to read some tips that will probably make
