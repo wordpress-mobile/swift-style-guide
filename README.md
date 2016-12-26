@@ -75,3 +75,20 @@ are enabled_. Xcode misses some cases, but it should help a lot.
 
 Swift does not require a semicolon after each statement in your code. There’s no
 reason to add them.
+
+### Colon spacing
+
+Colons always have no space on the left and one space on the right when
+specifying a type.
+
+```swift
+// Correct
+let name: String
+struct MyType: MyProtocol {}
+func prompt<T: UIViewController>(t: T) where T: Confirmable {}
+
+// Wrong
+let name : String
+struct MyType : MyProtocol {}
+func prompt<T : UIViewController>(t: T) where T : Confirmable {}
+```
