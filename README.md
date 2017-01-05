@@ -92,3 +92,31 @@ let name : String
 struct MyType : MyProtocol {}
 func prompt<T : UIViewController>(t: T) where T : Confirmable {}
 ```
+
+### Opening braces
+
+Opening braces should be preceded by a single space and on the same line as the declaration. The exception to this rule is when enclosed within parentheses: no preceding space is required.
+
+``` swift
+// Correct
+if let myString = myString {
+    print(myString)
+}
+
+struct Foo {
+    let bar: String
+}
+
+foo.map({ print($0) })
+
+// Wrong
+if let myString = myString
+{
+    print(myString)
+}
+
+struct Foo
+{
+    let bar: String
+}
+```
