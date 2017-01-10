@@ -140,14 +140,3 @@ func process(someObject: Any) {
     process(someObject as! Element)
 }
 ```
-
-Or use `throw` when the failure is unrecoverable
-
-``` swift
-func processedItems() throws -> Int {
-    guard items = theseThings as? [Item] else {
-        throw ThingItemsError.ProcessingError
-    }
-    return process(items)
-}
-```
