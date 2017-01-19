@@ -120,3 +120,23 @@ struct Foo
     let bar: String
 }
 ```
+
+### Forced downcasts and unwrapping
+
+Avoid using `as!` to force a downcast, or `!` to force unwrapping. Use `as?` to attempt the cast, then deal with the failure case explicitly.
+
+``` swift
+// Correct
+func process(someObject: Any) {
+    guard let element = someObject as? Element else {
+        // Optional error handling goes here
+        return
+    }
+    process(element)
+}
+
+// Wrong
+func process(someObject: Any) {
+    process(someObject as! Element)
+}
+```
