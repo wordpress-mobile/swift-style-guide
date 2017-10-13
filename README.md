@@ -121,7 +121,7 @@ struct Foo
 }
 ```
 
-Closing braces should always be placed on a new line regardless of the numer of enclosed statements.
+Closing braces should always be placed on a new line regardless of the number of enclosed statements.
 
 ```
 // Correct
