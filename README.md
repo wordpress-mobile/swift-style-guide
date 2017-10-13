@@ -143,7 +143,6 @@ guard condition else { return }
 if condition { } else { }
 ```
 
-
 ### Forced downcasts and unwrapping
 
 Avoid using `as!` to force a downcast, or `!` to force unwrapping. Use `as?` to attempt the cast, then deal with the failure case explicitly.
