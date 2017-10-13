@@ -93,7 +93,7 @@ struct MyType : MyProtocol {}
 func prompt<T : UIViewController>(t: T) where T : Confirmable {}
 ```
 
-### Opening and closing braces
+### Braces
 
 Opening braces should be preceded by a single space and on the same line as the declaration. The exception to this rule is when enclosed within parentheses: no preceding space is required.
 
@@ -121,7 +121,7 @@ struct Foo
 }
 ```
 
-Closing braces should always be placed on a new line. No exceptions should be done, with regards of the numer of enclosed statements.
+Closing braces should always be placed on a new line regardless of the numer of enclosed statements.
 
 ```
 // Correct
