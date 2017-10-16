@@ -143,6 +143,44 @@ guard condition else { return }
 if condition { } else { }
 ```
 
+### Commas
+
+There should be no space before an comma and a single one after any comma.
+
+**Preferred:**
+```swift
+function print(name: String, surname: String) {
+  ...
+}
+```
+
+**Not Preferred:**
+```swift
+function print(name: String ,surname: String) {
+  ...
+}
+```
+
+## Parentheses
+
+Parentheses around conditionals, if,for,while,do statements, are not required and should be omitted.
+
+**Preferred:**
+```swift
+if name == "Hello" {
+  print("World")
+}
+```
+
+**Not Preferred:**
+```swift
+if (name == "Hello") {
+  print("World")
+}
+```
+
+In larger expressions, optional parentheses can sometimes make code read more clearly.
+
 ### Forced downcasts and unwrapping
 
 Avoid using `as!` to force a downcast, or `!` to force unwrapping. Use `as?` to attempt the cast, then deal with the failure case explicitly.
