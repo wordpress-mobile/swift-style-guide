@@ -145,7 +145,7 @@ if condition { } else { }
 
 ### Commas
 
-There should be no space before an comma and a single one after any comma.
+There should be no space before a comma and a single one after any comma.
 
 **Preferred:**
 ```swift
@@ -163,7 +163,7 @@ function print(name: String ,surname: String) {
 
 ## Parentheses
 
-Parentheses around conditionals, if,for,while,do statements, are not required and should be omitted.
+Parentheses around conditionals, if, for, while, do statements, are not required and should be omitted.
 
 **Preferred:**
 ```swift
@@ -178,8 +178,6 @@ if (name == "Hello") {
   print("World")
 }
 ```
-
-In larger expressions, optional parentheses can sometimes make code read more clearly.
 
 ### Forced downcasts and unwrapping
 
