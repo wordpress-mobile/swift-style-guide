@@ -123,7 +123,7 @@ struct Foo
 
 Closing braces should always be placed on a new line regardless of the number of enclosed statements.
 
-```
+```swift
 // Correct
 guard condition else {
    return
