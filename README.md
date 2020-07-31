@@ -132,7 +132,7 @@ guard condition else {
 // Correct
 if condition { 
 
-} else  {
+} else {
 
 }
 
